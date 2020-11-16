@@ -1,0 +1,14 @@
+body,
+body * {
+margin: 0;
+padding: 0;
+vertical-align: top;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+@font-face {
+    font-family: "days";
+    src: url(./fonts/28-Days-Later.ttf) format("truetype");
+    font-style: normal;
+}
