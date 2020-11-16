@@ -22,6 +22,24 @@ body {
 .calculator-grid > button:hover {
     background-color: rgba(255, 255, 255, .9);
 }
+.calculator-grid > .operation {
+    background-color: rgba(192, 189, 189, 0.75);
+}
+.calculator-grid > .operation:hover {
+    background-color: rgba(192, 189, 189, 0.85);
+}
+.calculator-grid > .delete {
+    background-color: rgba(231, 100, 100, 0.75);
+}
+.calculator-grid > .delete:hover {
+    background-color:rgba(231, 100, 100, 0.85);
+}
+.calculator-grid > .equal {
+    background-color:rgba(245, 126, 57, 0.75);  
+}
+.calculator-grid > .equal:hover {
+    background-color:rgba(245, 126, 57, .85); 
+}
 .span-two {
     grid-column: span 2;
 }
