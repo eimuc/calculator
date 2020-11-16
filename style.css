@@ -9,8 +9,8 @@ body {
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 80px);
 }
 .calculator-grid > button {
     cursor: pointer;
@@ -43,4 +43,12 @@ body {
 .pre-result {
     color: rgba(255, 255, 255, .75);
     font-size: 25px;
+}
+
+
+@media (max-width: 400px) {
+    .calculator-grid {
+        grid-template-columns: repeat(4, 60px);
+        grid-template-rows: minmax(120px, auto) repeat(5, 60px);
+    }
 }
